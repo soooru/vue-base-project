@@ -1,0 +1,12 @@
+/* input autofill */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  box-shadow: none !important;
+  transition: background-color 9999s;
+}
+/* size */
+.fill-width {
+  width: 100%;
+}

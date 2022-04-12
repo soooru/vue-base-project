@@ -1,0 +1,30 @@
+{
+  "spec": "ISO 639-3",
+  "title": "I am english",
+  "app": {
+    "changeLang": "Language"
+  },
+  "menu": {
+    "home": "I am working on this project.",
+    "menu": "Menu",
+    "form": "forms",
+    "ready": "This is a {this}, That is a {that}."
+  },
+  "valid": {
+    "require": "required",
+    "maxLength": "Enter up to 40 characters.",
+    "minLength": "Enter at least 8 letters.",
+    "strAndNum": "Enter both letters and numbers.",
+    "success": "validation success",
+    "fail": "validation fail",
+    "samePwd": "Enter the same value as the password.",
+    "err": {
+      "email": "Not in email format"
+    }
+  },
+  "forms": {
+    "login": "login",
+    "chPwd": "change password"
+  },
+  "event": "no apples | one apple | {count} apples"
+}

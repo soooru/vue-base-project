@@ -1,0 +1,68 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "title": "검은 모자"
+    },
+    {
+      "id": 2,
+      "title": "빨간 모자"
+    },
+    {
+      "id": 3,
+      "title": "맥북 M1 pro 2022"
+    },
+    {
+      "id": 4,
+      "title": "아이폰 13 max"
+    },
+    {
+      "id": 5,
+      "title": "빨간 장갑"
+    },
+    {
+      "id": 6,
+      "title": "삼성전자 1주"
+    },
+    {
+      "id": 7,
+      "title": "세계여행 1주일권"
+    },
+    {
+      "id": 8,
+      "title": "에버랜드 전일 이용권"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "userId": "admin",
+      "password": "qwer1234!",
+      "name": "Vue Master",
+      "countryCode": "",
+      "address": "",
+      "postNumber": "",
+      "language": ""
+    },
+    {
+      "id": 2,
+      "userId": "user1@test.com",
+      "password": "qwer1234!",
+      "name": "User One",
+      "countryCode": "KR",
+      "address": "우주 어딘가",
+      "postNumber": "04029",
+      "language": "ko"
+    },
+    {
+      "id": 3,
+      "userId": "user2@test.com",
+      "password": "qwer1234!",
+      "name": "User two",
+      "countryCode": "",
+      "address": "",
+      "postNumber": "",
+      "language": ""
+    }
+  ]
+}

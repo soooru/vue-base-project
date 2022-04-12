@@ -1,0 +1,78 @@
+{
+  "name": "boilerplate-front",
+  "version": "0.0.1",
+  "private": true,
+  "author": {
+    "name": "soru",
+    "email": "threequaters9@gmail.com"
+  },
+  "scripts": {
+    "serve": "vue-cli-service serve --mode local --watch --open",
+    "build": "vue-cli-service build",
+    "test:unit": "vue-cli-service test:unit",
+    "lint": "vue-cli-service lint",
+    "mockup": "cross-env NODE_ENV=development nodemon ./tests/mock-api --exec babel-node"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "core-js": "^3.6.5",
+    "js-cookie": "^3.0.1",
+    "jwt-decode": "^3.1.2",
+    "lodash": "^4.17.21",
+    "moment-timezone": "^0.5.34",
+    "nprogress": "^0.2.0",
+    "validator": "^13.7.0",
+    "vue": "^2.6.11",
+    "vue-i18n": "^8.26.7",
+    "vue-router": "^3.2.0",
+    "vuelidate": "^0.7.6",
+    "vuetify": "^2.4.0",
+    "vuex": "^3.4.0",
+    "vuex-pathify": "^1.5.1",
+    "vuex-persistedstate": "^4.1.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0",
+    "@babel/node": "^7.16.0",
+    "@babel/plugin-transform-runtime": "^7.16.4",
+    "@babel/preset-env": "^7.16.4",
+    "@babel/runtime-corejs3": "^7.16.3",
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-unit-jest": "~4.5.0",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "@vue/test-utils": "^1.0.3",
+    "babel-eslint": "^10.1.0",
+    "cookie-parser": "^1.4.6",
+    "cross-env": "^7.0.3",
+    "eslint": "^6.7.2",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-vue": "^6.2.2",
+    "express": "^4.17.1",
+    "faker": "^5.5.3",
+    "json-server": "^0.17.0",
+    "jsonwebtoken": "^8.5.1",
+    "lowdb": "^1.0.0",
+    "nanoid": "^3.1.30",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.2.1",
+    "raw-loader": "^4.0.2",
+    "sass": "~1.32.0",
+    "sass-loader": "^10.0.0",
+    "vue-cli-plugin-vuetify": "~2.4.3",
+    "vue-template-compiler": "^2.6.11",
+    "vuetify-loader": "^1.7.0"
+  },
+  "engines": {
+    "node": ">=12.13.0",
+    "npm": ">=6.12.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bytv/boilerplate-front.git"
+  }
+}

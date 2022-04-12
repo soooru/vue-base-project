@@ -1,0 +1,30 @@
+{
+  "spec": "ISO 639-3",
+  "title": "저는 한글입니다.",
+  "app": {
+    "changeLang": "언어 변경"
+  },
+  "menu": {
+    "home": "나는 제작 중입니다.",
+    "menu": "메뉴",
+    "form": "인풋 폼",
+    "ready": "이것은 {this}입니다, 저건 {that}이고요."
+  },
+  "valid": {
+    "require": "필수 입력입니다.",
+    "maxLength": "최대 40글자까지 입력 가능합니다.",
+    "minLength": "최소 8글자를 입력합니다.",
+    "strAndNum": "문자와 숫자를 모두 포함해야 합니다.",
+    "success": "유효성 검사 통과",
+    "fail": "유효성 검사 실패",
+    "samePwd": "비밀번호와 동일한 값을 입력합니다.",
+    "err": {
+      "email": "이메일 형식이 아닙니다."
+    }
+  },
+  "forms": {
+    "login": "로그인",
+    "chPwd": "비밀번호 변경"
+  },
+  "event": "no apples | one apple | {count} apples"
+}
